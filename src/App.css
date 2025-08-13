@@ -1,0 +1,118 @@
+/* General page setup */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Main two-column layout */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+/* Left and right sections */
+.left,
+.right {
+  flex: 1;
+  max-width: 700px;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Form containers */
+.personalDetails,
+.education,
+.experience {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 18px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.08);
+  border: 1px solid #e0e0e0;
+}
+
+/* Inputs and labels */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+form label {
+  font-weight: bold;
+  color: #555;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  background-color: #fafafa;
+  transition: border-color 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #187ff5;
+  outline: none;
+  background-color: #fff;
+}
+
+/* Save button styling */
+.save {
+  background-color: #187ff5;
+  color: #fff;
+  min-width: 80px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.save:hover {
+  background-color: #105bb3;
+}
+
+.buttoncss {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Right column preview styling */
+.rightContainer > div {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.08);
+  border: 1px solid #e0e0e0;
+}
+
+.personalDetails1 p,
+.education1 p,
+.experience1 p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+strong {
+  color: #000;
+}
